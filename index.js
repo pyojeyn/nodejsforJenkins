@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("01/14 - 깃푸쉬 연동 확인입니당~");
+  res.send("01/14 - 깃푸쉬 연동 확인입니당~!!");
 });
 
 app.listen(port, () => {
